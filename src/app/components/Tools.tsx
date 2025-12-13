@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { SiCanva, SiOpenai, SiMeta, SiNotion, } from 'react-icons/si'
 import ExcelIcon from './icons/ExcelIcon'
@@ -10,7 +11,7 @@ function Tools() {
 
     
 
-    <div className="w-full bg-[#385e72] p-6 md:p-12" style={{ fontFamily: "'Red Rose', cursive" }}>
+    <div className="w-full bg-[#385e72] p-6 md:p-12 font-heading" >
       <div className="flex justify-end w-full">
         <div className="w-full md:max-w-2xl flex flex-col gap-4 items-end">
           <h1 className="text-center font-semibold text-2xl md:text-4xl w-full">TOOL KITS</h1>

@@ -73,8 +73,7 @@ export default function Skills() {
   return (
     <section id="skills">
       <div
-        className="w-full bg-[#6aabd2] p-6 md:p-12"
-        style={{ fontFamily: "'Red Rose', cursive" }}
+        className="w-full bg-[#6aabd2] p-6 md:p-12 font-heading"
       >
         <div className="flex justify-start w-full">
           <div className="w-full md:max-w-2xl flex flex-col gap-4 items-start">

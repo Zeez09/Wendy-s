@@ -4,7 +4,7 @@ export default function About() {
 
   return (
     <section id= "about-me">
-    <div className="w-full bg-[#d9e4ec] p-6 md:p-12" style={{ fontFamily: "'Red Rose', cursive" }}>
+    <div className="w-full bg-[#d9e4ec] p-6 md:p-12 font-heading" >
   <div className="flex justify-start w-full">
     <div className="w-full md:max-w-2xl flex flex-col gap-4 items-start">
       <h1 className="font-semibold text-2xl md:text-4xl text-center w-full">ABOUT ME</h1>

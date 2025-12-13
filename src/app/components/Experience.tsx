@@ -110,8 +110,7 @@ export default function Experience() {
 
    
     <div
-      className="w-full bg-[#d9e4ec] p-6 md:p-12"
-      style={{ fontFamily: "'Red Rose', cursive" }}
+      className="w-full bg-[#d9e4ec] p-6 md:p-12 font-heading"
     >
       <div className="w-full flex justify-center">
         <div className="w-full max-w-5xl flex flex-col gap-6">

@@ -26,10 +26,9 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="max-w-6xl mx-auto p-6 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto p-6 flex items-center justify-between font-heading">
         {/* Desktop Links */}
         <ul
-          style={{ fontFamily: "'Red Rose', cursive" }}
           className="hidden md:flex items-center justify-between sm:text-base md:text-lg text-2xl font-semibold text-gray-600 w-full"
         >
           {navLinks.map((link) => (

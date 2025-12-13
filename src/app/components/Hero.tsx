@@ -63,7 +63,7 @@ export default function Hero() {
         </div>
         </div>
 
-        <div style={{ fontFamily: "'Red Rose', cursive" }} className='flex flex-col items-center text-white md:space-y-6 space-y-2'>
+        <div className='font-heading flex flex-col items-center text-white md:space-y-6 space-y-2'>
         <h1 className="text-sm md:text-5xl font-semibold text-center">
           OJUOLAPE OPEYEJESU
         </h1>

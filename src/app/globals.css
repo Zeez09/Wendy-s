@@ -11,3 +11,13 @@
 }
 
 
+:root {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+.font-heading {
+  font-family: var(--font-red-rose), cursive;
+}
+
+
+

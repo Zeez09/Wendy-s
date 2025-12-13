@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Red_Rose } from "next/font/google";
 // @ts-ignore: CSS side-effect import without type declarations
 import "./globals.css";
 
@@ -11,6 +11,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const redRose = Red_Rose({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-red-rose",
 });
 
 export const metadata: Metadata = {
@@ -27,15 +33,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${redRose.variable} antialiased`}
       >
         {children}
       </body>
