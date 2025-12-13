@@ -1,9 +1,9 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { Instagram, Facebook, Linkedin } from 'lucide-react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Linkedin } from 'lucide-react';
 
 
 export default function Hero() {
@@ -57,9 +57,9 @@ export default function Hero() {
 
         {/* Social icons */}
         <div className="flex  space-x-6 mt-4 text-white">
-          <a href='https://www.instagram.com/wendy.chronicles?igsh=MW5nYjdlOW12bjI5ZA%3D%3D&utm_source=qr' target='_blank' rel="noopener noreferrer"><Instagram className="w-3 h-3 md:w-6 md:h-6 cursor-pointer hover:text-pink-500 transition" /></a>
+          <a href='https://www.instagram.com/wendy.chronicles?igsh=MW5nYjdlOW12bjI5ZA%3D%3D&utm_source=qr' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} className="text-lg md:text-2xl cursor-pointer hover:text-pink-500 transition" /></a>
           <a href='https://wa.link/1ypd4p' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faWhatsapp} className="text-lg md:text-2xl cursor-pointer hover:text-green-600 transition hover:fill-green-600 " /></a> 
-          <a href='https://www.linkedin.com/in/opeyejesu-mary' target='_blank' rel='noopener noreferrer'><Linkedin fill='white' className="w-3 h-3 md:w-6 md:h-6 cursor-pointer hover:text-blue-600 transition hover:fill-blue-600" /></a>
+          <a href='https://www.linkedin.com/in/opeyejesu-mary' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={faLinkedin}  className="text-lg md:text-2xl cursor-pointer hover:text-blue-600 transition hover:fill-blue-600" /></a>
         </div>
         </div>
 

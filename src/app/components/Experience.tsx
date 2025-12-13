@@ -110,7 +110,7 @@ export default function Experience() {
 
    
     <div
-      className="w-full bg-amber-100 p-6 md:p-12"
+      className="w-full bg-[#d9e4ec] p-6 md:p-12"
       style={{ fontFamily: "'Red Rose', cursive" }}
     >
       <div className="w-full flex justify-center">
@@ -138,8 +138,8 @@ export default function Experience() {
                   transition
                   ${
                     active === cat.key
-                      ? "bg-amber-300 text-black font-semibold"
-                      : "bg-amber-200 text-gray-700 font-light"
+                      ? "bg-[#385e72] text-black font-semibold"
+                      : "bg-[#6aabd2] text-gray-700 font-light"
                   }
                 `}
               >
